@@ -26,8 +26,13 @@ const Login = () => {
           <span className="logo">Chatter Box</span>
           <span className="title">Login</span>
           <form onSubmit={handleSubmit}>
+<<<<<<< HEAD
             <input type="email" placeholder="email" value="demo@demo.com"/>
             <input type="password" placeholder="password" value="Demo!123" />
+=======
+            <input type="email" placeholder="email" />
+            <input type="password" placeholder="password" />
+>>>>>>> fea70882fbed1d527d613b8a41466c9352f7f857
             <button>Sign in</button>
             {err && <span>Something went wrong</span>}
           </form>
